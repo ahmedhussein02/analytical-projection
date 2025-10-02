@@ -1,0 +1,11 @@
+i renamed keypoints_map_pos to tacmap_k_pos
+i renamed classes_names_dic to tacmap_classes_dic
+i renamed detected_labels to detected_k
+rename any nbr to num
+rename tac_map to tacmap
+
+remove this markup line: The dataframe representation are not used in what follows (original dictionary will be used)
+
+remove all print,display in the second cell
+
+maybe delete all comments before pushing

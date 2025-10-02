@@ -1,0 +1,16 @@
+using LAB colorr space over RGB since it is more accurate
+
+we use homography matrix/transformation to map players from frames to the tactical map
+
+homography transformation/matrix needs at least 4 keypoints in each frame to work
+
+we can achieve 100% accuracy of pov shift if we use only 4 keypoints especially if these keypoints are proximate of each other.. however using more keypoints or in other words covering a wider area will decrease the accuracy due to camera warp or the points are not in one 3d planar
+
+tactical map pov shift was not smooth due to the frame by frame update of the homography matrix.. the issue is solved by applying a condition where it only updates if the current frame's common keypoints exceed a specified distance from the last frame's keypoints
+
+Part 2 "Players Team Prediction" explained:
+first four lines are declared variables used later in code, their explaination:
+line 1: opencv loads or reads files in BGR by default.. so we convert them to RGB for ...
+line 2: a list that stores ... , here is an example of what is inside that list: ...
+line 3: ...
+line 4: ...

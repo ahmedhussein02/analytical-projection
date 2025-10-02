@@ -1,0 +1,7 @@
+models/
+# Video Files
+*.mp4
+*.mov
+*.avi
+*.m4v
+*.asf
