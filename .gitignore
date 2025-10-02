@@ -1,4 +1,4 @@
-models/
+*.pth
 # Video Files
 *.mp4
 *.mov
